@@ -29,14 +29,14 @@ Run main.py to reproduce the results. This script will automatically link and ex
 ### Citation
 If you find this code useful, please consider citing our work:
 
-@article{imtiaz2025enhanced,
-  title={Enhanced cross-dataset electroencephalogram-based emotion recognition using unsupervised domain adaptation},
-  author={Imtiaz, Md Niaz and Khan, Naimul},
-  journal={Computers in Biology and Medicine},
-  volume={184},
-  pages={109394},
-  year={2025},
-  publisher={Elsevier}
+@article{imtiaz2025enhanced,<br />
+  title={Enhanced cross-dataset electroencephalogram-based emotion recognition using unsupervised domain adaptation},<br />
+  author={Imtiaz, Md Niaz and Khan, Naimul},<br />
+  journal={Computers in Biology and Medicine},<br />
+  volume={184},<br />
+  pages={109394},<br />
+  year={2025},<br />
+  publisher={Elsevier}<br />
 }
 
 
