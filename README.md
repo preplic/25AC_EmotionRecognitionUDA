@@ -29,7 +29,6 @@ Run main.py to reproduce the results. This script will automatically link and ex
 
 ### Citation
 If you find this code useful, please consider citing our work:
-[@imtiaz2025enhanced]
 
 ```bibtex
 @article{imtiaz2025enhanced,
