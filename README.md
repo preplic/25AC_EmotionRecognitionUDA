@@ -21,3 +21,7 @@ The experiments were conducted using the following environment and packages:
 ![Screenshot 2024-11-18 202854](https://github.com/user-attachments/assets/708aa4fd-2070-46bd-b82b-fa11333a210f)
 
 The preprocessed directory stores the data generated during the preprocessing stage in the code.
+
+## Execute Code
+Run main.py to reproduce the results. This script will automatically link and execute the other .py files as needed.
+
