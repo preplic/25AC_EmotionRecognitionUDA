@@ -12,4 +12,5 @@ The experiments were conducted using the following environment and packages:
 - SciPy version == 1.13.1
 
 
-![Screenshot 2024-11-18 202854](https://github.com/user-attachments/assets/44f52d1f-0af9-43a5-a885-3e0cd8f8c0f7)
+
+![Screenshot 2024-11-18 202854](https://github.com/user-attachments/assets/708aa4fd-2070-46bd-b82b-fa11333a210f)
