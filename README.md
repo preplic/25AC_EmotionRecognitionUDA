@@ -16,8 +16,8 @@ The experiments were conducted using the following environment and packages:
 
 1.	Download the following EEG Datasets:<br />
 
- [DEAP](https://www.eecs.qmul.ac.uk/mmv/datasets/deap/download.html)<br />
- [SEED](https://bcmi.sjtu.edu.cn/home/seed/)<br />
+    [DEAP](https://www.eecs.qmul.ac.uk/mmv/datasets/deap/download.html)<br />
+    [SEED](https://bcmi.sjtu.edu.cn/home/seed/)<br />
 2.	Unzip the data and organize it according to the following directory structure:<br />
 ```
     data
