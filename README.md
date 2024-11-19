@@ -25,3 +25,18 @@ The preprocessed directory stores the data generated during the preprocessing st
 ### Execute Code
 Run main.py to reproduce the results. This script will automatically link and execute the other .py files as needed.
 
+
+### Citation
+If you find this code useful, please consider citing our work:
+
+@article{imtiaz2025enhanced,
+  title={Enhanced cross-dataset electroencephalogram-based emotion recognition using unsupervised domain adaptation},
+  author={Imtiaz, Md Niaz and Khan, Naimul},
+  journal={Computers in Biology and Medicine},
+  volume={184},
+  pages={109394},
+  year={2025},
+  publisher={Elsevier}
+}
+
+
