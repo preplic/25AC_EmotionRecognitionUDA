@@ -29,7 +29,7 @@ Run main.py to reproduce the results. This script will automatically link and ex
 ### Citation
 If you find this code useful, please consider citing our work:
 
-
+\cite{IMTIAZ2025109394}
 [Uploading S0010482524014793.bib…]()@article{IMTIAZ2025109394,
 title = {Enhanced cross-dataset electroencephalogram-based emotion recognition using unsupervised domain adaptation},
 journal = {Computers in Biology and Medicine},
