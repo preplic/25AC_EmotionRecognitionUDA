@@ -42,7 +42,7 @@ The experiments were conducted using the following environment and packages:
 The preprocessed directory stores the data generated during the preprocessing stage in the code.
 
 ### Execute Code
-Run main.py to reproduce the results. This script will automatically link and execute the other .py files as needed.
+Run _main.py_ to reproduce the results. This script will automatically link and execute the other _.py_ files as needed.
 
 
 ### Citation
