@@ -1,6 +1,6 @@
 This repository contains the code accompanying our paper Enhanced Cross-Dataset Electroencephalogram-based Emotion Recognition using Unsupervised Domain Adaptation published in Computers in Biology and Medicine. Our work presents a domain-adaptive deep network for EEG-based emotion classification, aiming to improve cross-domain model performance by addressing feature distribution discrepancies. We introduce a sample selection technique to reduce negative transfer and propose a cost-effective test-time augmentation method to enhance test performance.
 
-## Setup Environment
+### Setup Environment
 
 The experiments were conducted using the following environment and packages:
 
@@ -11,7 +11,7 @@ The experiments were conducted using the following environment and packages:
 - scikit-learn version == 1.5.2<br />
 - SciPy version == 1.13.1
 
-## Data Preparation
+### Data Preparation
 
 1.	Download the following EEG Datasets:<br />
  [DEAP](https://www.eecs.qmul.ac.uk/mmv/datasets/deap/download.html)<br />
@@ -22,6 +22,6 @@ The experiments were conducted using the following environment and packages:
 
 The preprocessed directory stores the data generated during the preprocessing stage in the code.
 
-## Execute Code
+### Execute Code
 Run main.py to reproduce the results. This script will automatically link and execute the other .py files as needed.
 
