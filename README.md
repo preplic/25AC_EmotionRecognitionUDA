@@ -4,7 +4,7 @@ Setup Environment
 
 The experiments were conducted using the following environment and packages:
 
-Markup : * PyTorch version == 2.1.0+cu121<br />
+*PyTorch version == 2.1.0+cu121<br />
 Python version == 3.10.12<br />
 NumPy version == 1.26.4<br />
 pandas version == 2.2.2<br />
