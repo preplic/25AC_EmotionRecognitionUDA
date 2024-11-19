@@ -19,22 +19,19 @@ The experiments were conducted using the following environment and packages:
  [SEED](https://bcmi.sjtu.edu.cn/home/seed/)<br />
 2.	Unzip the data and organize it according to the following directory structure.<br />
 ```
-data
+    data
     +---DEAP
     ¦   ¦   sXX.dat
-    ¦   ¦   
     ¦   +---preprocessed
     ¦           Data_Orig_sub_XX.npy
     ¦           DE_sub_XX.npy
     ¦           labels_sub_XX.npy
-    ¦           PSD_sub_XX.npy
-    ¦           
+    ¦           PSD_sub_XX.npy       
     +---SEED
         ¦   label.mat
         ¦   X_1.mat
         ¦   X_2.mat
-        ¦   X_3.mat
-        ¦   
+        ¦   X_3.mat 
         +---preprocessed
                 Data_Orig_sub_X.npy
                 DE_sub_X.npy
