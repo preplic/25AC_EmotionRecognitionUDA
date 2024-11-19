@@ -5,12 +5,12 @@ This repository contains the code accompanying our paper [Enhanced Cross-Dataset
 
 The experiments were conducted using the following environment and packages:
 
-- PyTorch version == 2.1.0+cu121<br />
-- Python version == 3.10.12<br />
-- NumPy version == 1.26.4<br />
-- pandas version == 2.2.2<br />
-- scikit-learn version == 1.5.2<br />
-- SciPy version == 1.13.1
+- PyTorch == 2.1.0+cu121<br />
+- Python == 3.10.12<br />
+- NumPy == 1.26.4<br />
+- pandas == 2.2.2<br />
+- scikit-learn == 1.5.2<br />
+- SciPy == 1.13.1
 
 ### Data Preparation
 
