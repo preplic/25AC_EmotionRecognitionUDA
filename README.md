@@ -5,7 +5,7 @@ This repository contains the code accompanying our paper [Enhanced Cross-Dataset
 
 The experiments were conducted using the following environment and packages:
 
-- PyTorch == 2.1.0+cu121<br />
+- PyTorch == 2.3.1+cu121<br />
 - Python == 3.10.12<br />
 - NumPy == 1.26.4<br />
 - pandas == 2.2.2<br />
