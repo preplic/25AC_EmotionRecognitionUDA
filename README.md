@@ -29,14 +29,19 @@ Run main.py to reproduce the results. This script will automatically link and ex
 ### Citation
 If you find this code useful, please consider citing our work:
 
-@article{imtiaz2025enhanced,<br />
-  title={Enhanced cross-dataset electroencephalogram-based emotion recognition using unsupervised domain adaptation},<br />
-  author={Imtiaz, Md Niaz and Khan, Naimul},<br />
-  journal={Computers in Biology and Medicine},<br />
-  volume={184},<br />
-  pages={109394},<br />
-  year={2025},<br />
-  publisher={Elsevier}<br />
+
+[Uploading S0010482524014793.bib…]()@article{IMTIAZ2025109394,
+title = {Enhanced cross-dataset electroencephalogram-based emotion recognition using unsupervised domain adaptation},
+journal = {Computers in Biology and Medicine},
+volume = {184},
+pages = {109394},
+year = {2025},
+issn = {0010-4825},
+doi = {https://doi.org/10.1016/j.compbiomed.2024.109394},
+url = {https://www.sciencedirect.com/science/article/pii/S0010482524014793},
+author = {Md Niaz Imtiaz and Naimul Khan},
+keywords = {Electroencephalogram (EEG), Emotion recognition, Unsupervised domain adaptation, Brain–computer interface (BCI), Test-time augmentation (TTA)},
+abstract = {Emotion recognition holds great promise in healthcare and in the development of affect-sensitive systems such as brain–computer interfaces (BCIs). However, the high cost of labeled data and significant differences in electroencephalogram (EEG) signals among individuals limit the cross-domain application of EEG-based emotion recognition models. Addressing cross-dataset scenarios poses greater challenges due to changes in subject demographics, recording devices, and stimuli presented. To tackle these challenges, we propose an improved method for classifying EEG-based emotions across domains with different distributions. We propose a Gradual Proximity-guided Target Data Selection (GPTDS) technique, which gradually selects reliable target domain samples for training based on their proximity to the source clusters and the model’s confidence in predicting them. This approach avoids negative transfer caused by diverse and unreliable samples. Additionally, we introduce a cost-effective test-time augmentation (TTA) technique named Prediction Confidence-aware Test-Time Augmentation (PC-TTA). Traditional TTA methods often face substantial computational burden, limiting their practical utility. By applying TTA only when necessary, based on the model’s predictive confidence, our approach improves the model’s performance during inference while minimizing computational costs compared to traditional TTA approaches. Experiments on the DEAP and SEED datasets demonstrate that our method outperforms state-of-the-art approaches, achieving accuracies of 67.44% when trained on DEAP and tested on SEED, and 59.68% vice versa, with improvements of 7.09% and 6.07% over the baseline. It excels in detecting both positive and negative emotions, highlighting its effectiveness for practical emotion recognition in healthcare applications. Moreover, our proposed PC-TTA technique reduces computational time by a factor of 15 compared to traditional full TTA approaches.}
 }
 
 
