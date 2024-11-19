@@ -18,7 +18,7 @@ The experiments were conducted using the following environment and packages:
  [DEAP](https://www.eecs.qmul.ac.uk/mmv/datasets/deap/download.html)<br />
  [SEED](https://bcmi.sjtu.edu.cn/home/seed/)<br />
 2.	Unzip the data and organize it according to the following directory structure.<br />
-
+```
 data
     +---DEAP
     ¦   ¦   sXX.dat
@@ -40,7 +40,7 @@ data
                 DE_sub_X.npy
                 labels_sub_X.npy
                 PSD_sub_X.npy
-                
+ ```               
 ![Screenshot 2024-11-18 202854](https://github.com/user-attachments/assets/708aa4fd-2070-46bd-b82b-fa11333a210f)
 
 The preprocessed directory stores the data generated during the preprocessing stage in the code.
