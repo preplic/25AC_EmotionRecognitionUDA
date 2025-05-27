@@ -71,8 +71,10 @@ class Data_Processor():
       DataSeg_DE_all_trials=torch.zeros((1,160))
       labels_all_trials=torch.zeros((1,1))
       count=0
-      data_path_DEAP='/data/DEAP/'
-      data_P_path_DEAP='/data/DEAP/preprocessed/'
+    #   data_path_DEAP='/data/DEAP/'
+    #   data_P_path_DEAP='/data/DEAP/preprocessed/'
+      data_path_DEAP='./data/DEAP/'
+      data_P_path_DEAP='./data/DEAP/preprocessed/'
 
       for sub in SubjectList:
           DataSeg_PSD_Each_Sub=torch.zeros((1,160))
@@ -159,8 +161,10 @@ class Data_Processor():
         DataSeg_DE_all_trials=torch.zeros((1,160))
         labels_all_trials=torch.zeros((1,1))
         count=0
-        data_path_SEED='/data/SEED/'
-        data_P_path_SEED='/data/SEED/preprocessed/'
+        # data_path_SEED='/data/SEED/'
+        # data_P_path_SEED='/data/SEED/preprocessed/'
+        data_path_SEED='./data/SEED/'
+        data_P_path_SEED='./data/SEED/preprocessed/'
 
         #Load labels
         with open(data_path_SEED+'label.mat', 'rb') as file:
@@ -200,7 +204,7 @@ class Data_Processor():
                               labels_curr=labels_curr.to('cuda')
                               labels_curr=labels_curr.float()
                               start = 0
-                              count2=0
+                              count2 = 0
 
                               while start + window_size < data_filtered_curr.shape[1]:
                                   DataSeg_filtered_curr=data_filtered_curr[:,start : start + window_size]

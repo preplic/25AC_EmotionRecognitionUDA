@@ -9,7 +9,8 @@ class Load_Data():
       DataSeg_DE_all_trials_DEAP=torch.zeros((1,160))
       labels_all_trials_DEAP=torch.zeros((1,1))
       count=0
-      data_P_path_DEAP='/data/DEAP/preprocessed/'
+      # data_P_path_DEAP='/data/DEAP/preprocessed/'
+      data_P_path_DEAP='./data/DEAP/preprocessed/'
 
       for sub in subjectList_DEAP:
           PSD_tmp=np.load(data_P_path_DEAP+'PSD_sub_'+sub+'.npy')
@@ -44,7 +45,8 @@ class Load_Data():
       DataSeg_DE_all_trials_SEED=torch.zeros((1,160))
       labels_all_trials_SEED=torch.zeros((1,1))
       count=0
-      data_P_path_SEED='/data/SEED/preprocessed/'
+      # data_P_path_SEED='/data/SEED/preprocessed/'
+      data_P_path_SEED='./data/SEED/preprocessed/'
 
       for sub in subjectList_SEED:
           PSD_tmp=np.load(data_P_path_SEED+'PSD_sub_'+sub+'.npy')
@@ -63,11 +65,26 @@ class Load_Data():
           count=count+1
 
       #Take samples with labels 0 and 1
+      # condition1 = labels_all_trials_SEED == 0
+      # condition2 = labels_all_trials_SEED == 1
+      # indices = np.where(np.logical_or(condition1, condition2))
+      # labels_all_trials_SEED=labels_all_trials_SEED[indices[0],:]
+      # DataSeg_PSD_all_trials_SEED=DataSeg_PSD_all_trials_SEED[indices[0],:]
+      # DataSeg_DE_all_trials_SEED=DataSeg_DE_all_trials_SEED[indices[0],:]
+
+      #Take samples with labels 0 and 2
       condition1 = labels_all_trials_SEED == 0
-      condition2 = labels_all_trials_SEED == 1
+      condition2 = labels_all_trials_SEED == 2
       indices = np.where(np.logical_or(condition1, condition2))
       labels_all_trials_SEED=labels_all_trials_SEED[indices[0],:]
       DataSeg_PSD_all_trials_SEED=DataSeg_PSD_all_trials_SEED[indices[0],:]
       DataSeg_DE_all_trials_SEED=DataSeg_DE_all_trials_SEED[indices[0],:]
+      for i in range(labels_all_trials_SEED.shape[0]):
+            if labels_all_trials_SEED[i][0]==2:
+                labels_all_trials_SEED[i][0]=1
+            elif labels_all_trials_SEED[i][0]==0:
+                labels_all_trials_SEED[i][0]=0
+            else:
+                print(f'Error in labels_all_trials_SEED[{i}][0] processing, except 0 or 2, get {labels_all_trials_SEED[i][0]}')
 
       return DataSeg_PSD_all_trials_SEED,DataSeg_DE_all_trials_SEED,labels_all_trials_SEED

@@ -1,0 +1,4 @@
+__pycache__/
+data/DEAP/*
+data/SEED/*
+output/

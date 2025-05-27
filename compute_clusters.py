@@ -110,7 +110,7 @@ class Compute_Clusters():
             sum_dist_feat_1=0
             count_correct_feat_0=0
             count_correct_feat_1=0
-            print(correct_output_C1_prev_s.shape)
+            # print(correct_output_C1_prev_s.shape)
 
             for ii in range(correct_output_C1_prev_s.shape[0]):
                 sum_dist_classifiers=sum_dist_classifiers+ self.L2Distance(correct_output_C1_prev_s[ii], correct_output_C2_prev_s[ii])
