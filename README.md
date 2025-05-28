@@ -4,7 +4,7 @@
 
 ## 课程设计报告
 
-![PDF 预览](./Report/Preview_Report.png)\
+![PDF 预览](./Report/Preview_Report.png)<br />
 [查看完整 PDF](./Report/25AC_Report.pdf)
 （Github有时在网页端无法正确加载pdf，请在链接转到的页面中点击Download raw file）
 
@@ -12,12 +12,15 @@
 
 实验在以下环境和软件包中进行：
 
-- PyTorch == 2.3.1+cu121<br />
-- Python == 3.10.12<br />
+- Python == 3.10.16<br />
+- PyTorch == 2.0.0+cu118<br />
+- matplotlib == 3.10.1<br />
 - NumPy == 1.26.4<br />
 - pandas == 2.2.2<br />
 - scikit-learn == 1.5.2<br />
-- SciPy == 1.13.1
+- SciPy == 1.13.1<br />
+- seaborn == 0.13.2<br />
+- tqdm == 4.67.1<br />
 
 ## 数据准备
 
