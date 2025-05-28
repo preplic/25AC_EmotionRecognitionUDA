@@ -4,7 +4,7 @@
 
 ## 课程设计报告
 
-![PDF 预览](./Report/Preview_Report.png)
+![PDF 预览](./Report/Preview_Report.png)\
 [查看完整 PDF](./Report/25AC_Report.pdf)
 （Github有时在网页端无法正确加载pdf，请在链接转到的页面中点击Download raw file）
 
